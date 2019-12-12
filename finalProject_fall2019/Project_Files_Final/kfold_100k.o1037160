@@ -1,0 +1,16 @@
+/users/PAS1585/sanchezrosales1/work/bigdata-fall-2019-desanchezrosales/FINAL_Project
+
+-----------------------
+Resources requested:
+nodes=1:ppn=40
+mem=190440mb
+-----------------------
+Resources used:
+cput=169:18:50
+walltime=11:20:50
+mem=56.643GB
+vmem=77.351GB
+-----------------------
+Resource units charged (estimate):
+45.388 RUs
+-----------------------

@@ -1,0 +1,16 @@
+/users/PAS1585/sanchezrosales1/work/bigdata-fall-2019-desanchezrosales/assignment11_prep
+
+-----------------------
+Resources requested:
+nodes=1:ppn=1:gpus=1
+mem=4761mb
+-----------------------
+Resources used:
+cput=00:01:05
+walltime=00:01:22
+mem=2.118GB
+vmem=24.918GB
+-----------------------
+Resource units charged (estimate):
+0.002 RUs
+-----------------------

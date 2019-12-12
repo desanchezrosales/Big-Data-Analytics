@@ -1,0 +1,81 @@
+Using TensorFlow backend.
+/apps/python/3.6-conda5.2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:523: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/apps/python/3.6-conda5.2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:524: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/apps/python/3.6-conda5.2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/apps/python/3.6-conda5.2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/apps/python/3.6-conda5.2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/apps/python/3.6-conda5.2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:532: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Training
+2019-12-08 12:01:50.123880: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-12-08 12:01:50.285561: E tensorflow/stream_executor/cuda/cuda_driver.cc:397] failed call to cuInit: CUDA_ERROR_NO_DEVICE
+2019-12-08 12:01:50.285624: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (p0069.ten.osc.edu): /proc/driver/nvidia/version does not exist
+Train accuracy: [0.7703125, 0.8039625, 0.8230375, 0.8397125, 0.852425, 0.8618125, 0.8700375, 0.879175, 0.8846, 0.892575, 0.900775, 0.9057875, 0.914725, 0.9196125, 0.927025, 0.9332625, 0.939225]
+Test Accuracy: [0.79955, 0.80335, 0.83155, 0.8358, 0.81795, 0.83285, 0.84225, 0.84845, 0.824, 0.84585, 0.84305, 0.84565, 0.82745, 0.84065, 0.8356, 0.8338, 0.8274]
+Training
+Train accuracy: [0.9106375, 0.9221875, 0.928875, 0.935625, 0.94215, 0.9503625, 0.9565625, 0.960325, 0.9650625, 0.9683, 0.972875]
+Test Accuracy: [0.94205, 0.9243, 0.9175, 0.905, 0.913, 0.90305, 0.8992, 0.89765, 0.89635, 0.88685, 0.88475]
+Training
+Train accuracy: [0.9429, 0.9606, 0.9672625, 0.969925, 0.975025, 0.9773125, 0.9787125, 0.981025, 0.9843625, 0.983525, 0.9860125, 0.984925]
+Test Accuracy: [0.95705, 0.9652, 0.9599, 0.95275, 0.9427, 0.9391, 0.93245, 0.9311, 0.9242, 0.92405, 0.9194, 0.91915]
+Training
+Train accuracy: [0.9606375, 0.9782375, 0.9819375, 0.9847625, 0.9857125, 0.9873375, 0.9863375, 0.9883625, 0.99035, 0.9889875, 0.989525]
+Test Accuracy: [0.9838, 0.9777, 0.97765, 0.9708, 0.9563, 0.9559, 0.9558, 0.962, 0.9575, 0.9479, 0.95055]
+Training
+Train accuracy: [0.9729125, 0.9874, 0.9899125, 0.9882875, 0.9904625, 0.9892625, 0.991375, 0.99175, 0.9911375, 0.9899875, 0.99285]
+Test Accuracy: [0.98995, 0.9864, 0.9878, 0.98875, 0.97995, 0.975, 0.9678, 0.9723, 0.9643, 0.96215, 0.96815]
+Training
+Train accuracy: [0.7828375, 0.8178375, 0.83985, 0.8614875, 0.8823625, 0.90405, 0.9256625, 0.9447375, 0.96035, 0.9717625, 0.9775, 0.9822375, 0.9856625]
+Test Accuracy: [0.80205, 0.82475, 0.84755, 0.84885, 0.83105, 0.8481, 0.8358, 0.82765, 0.8303, 0.82875, 0.8192, 0.82355, 0.82085]
+Training
+Train accuracy: [0.9338375, 0.9623125, 0.976875, 0.984125, 0.9880375, 0.9893875, 0.99125, 0.9897375, 0.99345, 0.9922625, 0.9925375, 0.993725]
+Test Accuracy: [0.9686, 0.9758, 0.9646, 0.9556, 0.9511, 0.947, 0.94315, 0.9422, 0.93595, 0.93025, 0.93485, 0.93235]
+Training
+Train accuracy: [0.9706625, 0.990325, 0.9920875, 0.9949, 0.9945, 0.9927125, 0.99395, 0.9946, 0.99505, 0.9946875, 0.9955625, 0.996375, 0.99575]
+Test Accuracy: [0.99085, 0.9882, 0.9932, 0.97695, 0.9698, 0.98015, 0.9853, 0.9813, 0.9737, 0.9759, 0.97595, 0.96495, 0.9645]
+Training
+Train accuracy: [0.985475, 0.9948125, 0.995625, 0.994975, 0.99545, 0.995575, 0.9956375, 0.9965, 0.9964875, 0.9963125, 0.9962125]
+Test Accuracy: [0.99595, 0.99295, 0.99445, 0.9925, 0.98455, 0.98755, 0.99045, 0.9886, 0.98215, 0.97595, 0.98215]
+Training
+Train accuracy: [0.991025, 0.9963125, 0.9965125, 0.996125, 0.9967375, 0.9965625, 0.9965625, 0.9966625, 0.996775, 0.9971, 0.9972, 0.9975625, 0.995875]
+Test Accuracy: [0.9928, 0.99475, 0.9962, 0.99065, 0.9894, 0.9884, 0.9878, 0.9927, 0.9812, 0.99075, 0.9843, 0.98315, 0.9846]
+Training
+Train accuracy: [0.777375, 0.8051125, 0.83185, 0.8533625, 0.8707, 0.8831625, 0.8965375, 0.912675, 0.9337625, 0.95405, 0.969025, 0.978575, 0.986075, 0.9874125, 0.9885375, 0.9893875]
+Test Accuracy: [0.80345, 0.82015, 0.83885, 0.8496, 0.85545, 0.85225, 0.84675, 0.85225, 0.84115, 0.83735, 0.83675, 0.8379, 0.82485, 0.8385, 0.81965, 0.8343]
+Training
+Train accuracy: [0.940875, 0.97005, 0.9834625, 0.9896125, 0.992675, 0.99195, 0.992475, 0.9942625, 0.9948375, 0.994825, 0.9941375, 0.9954]
+Test Accuracy: [0.97315, 0.9819, 0.97895, 0.95985, 0.9751, 0.9708, 0.95945, 0.9554, 0.9593, 0.95125, 0.95545, 0.94235]
+Training
+Train accuracy: [0.9792125, 0.992775, 0.9938375, 0.9962, 0.995675, 0.995875, 0.995975, 0.9942625, 0.9961875, 0.9969875, 0.9952875]
+Test Accuracy: [0.9941, 0.994, 0.99295, 0.9895, 0.9908, 0.992, 0.9877, 0.98655, 0.9698, 0.9819, 0.9814]
+Training
+Train accuracy: [0.990575, 0.9968125, 0.9962875, 0.9971125, 0.9961, 0.9956875, 0.99685, 0.9958125, 0.9973625, 0.9965375, 0.9971, 0.996525]
+Test Accuracy: [0.98765, 0.99695, 0.9919, 0.9941, 0.982, 0.9846, 0.9873, 0.9817, 0.9765, 0.9863, 0.98925, 0.98525]
+Training
+Train accuracy: [0.99335, 0.9962125, 0.997475, 0.9976875, 0.9966375, 0.99835, 0.9971625, 0.9977125, 0.9970625, 0.9970375, 0.9972875, 0.9969]
+Test Accuracy: [0.9954, 0.9986, 0.99745, 0.995, 0.9941, 0.99715, 0.9952, 0.98705, 0.99365, 0.99035, 0.99175, 0.99085]
+Training
+Train accuracy: [0.7787, 0.8192, 0.835325, 0.8499375, 0.8639625, 0.8801375, 0.9004125, 0.9210125, 0.9396, 0.95725, 0.9694, 0.974225, 0.9805, 0.9832375, 0.9868]
+Test Accuracy: [0.81685, 0.8287, 0.811, 0.821, 0.8446, 0.83495, 0.83605, 0.8305, 0.8276, 0.8236, 0.8181, 0.8252, 0.82585, 0.823, 0.8196]
+Training
+Train accuracy: [0.931575, 0.962575, 0.9756375, 0.9831625, 0.9872125, 0.991475, 0.99205, 0.9924625, 0.99195, 0.9934, 0.9922625, 0.99435, 0.9935125]
+Test Accuracy: [0.9775, 0.97275, 0.9741, 0.96395, 0.95815, 0.95175, 0.943, 0.94965, 0.9479, 0.9309, 0.94315, 0.93835, 0.9254]
+Training
+Train accuracy: [0.9735375, 0.990575, 0.9940875, 0.99345, 0.99465, 0.994775, 0.99425, 0.995075, 0.9946875, 0.996375, 0.99455, 0.99545, 0.995675]
+Test Accuracy: [0.99075, 0.9925, 0.9927, 0.9821, 0.98985, 0.9901, 0.98635, 0.9848, 0.97865, 0.9844, 0.9638, 0.9634, 0.9709]
+Training
+Train accuracy: [0.9874375, 0.9961, 0.9964, 0.9948, 0.9940375, 0.997225, 0.9956375, 0.9967125, 0.9973625, 0.9951625, 0.9958]
+Test Accuracy: [0.9956, 0.99605, 0.98945, 0.99335, 0.9945, 0.99395, 0.9935, 0.99295, 0.9822, 0.98385, 0.9818]
+Training
+Train accuracy: [0.9925375, 0.996625, 0.9961875, 0.996725, 0.996675, 0.9973625, 0.99665, 0.996825, 0.997075, 0.9962125, 0.996925]
+Test Accuracy: [0.9984, 0.9936, 0.9956, 0.99665, 0.9876, 0.99395, 0.99555, 0.99505, 0.9893, 0.9915, 0.98635]
+[0.9468525, 0.96484, 0.9733075, 0.969895]
+[0.14064583230366928, 0.08942323996848209, 0.07071571763283574, 0.07665285463817882]
+[0.9393499999999999, 0.9548, 0.96181, 0.9541299999999999]
+[0.15256806663528083, 0.11578692762011429, 0.09663289945836297, 0.11551192908749683]
+40831.13304018974
